@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about">
+        <h1>About Me</h1>
+        <p>Hello! I'm Mittapalli Tharun Kumar, a passionate Full Stack Java Developer skilled in HTML, CSS, JavaScript, MySQL and Java. I love creating responsive and user-friendly websites.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p><b>MedSynCare-Personal Health Record App</b><br><b>Role:</b> Team Lead<br><b>Technologies:</b> UHI Protocol, Aadhaar Integration, QR Code, PHR Management, HTML, CSS, JavaScript<br>
+                    <b>Description:</b> Developed MedSynCare, a healthcare app for seamless doctor bookings, ABHA account creation, and
+                      Aadhaar-based login. It securely manages personal health records and enables quick profile sharing via QR codes.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p><b>Crowd Analysis-Intelligent Monitoring System</b><br><b>Role:</b> Developer<br>
+                <b>Technologies:</b> Computer Vision, Machine Learning, Python, OpenCV, HTML, CSS, JavaScript<br><b>Description:</b> Developed a crowd analysis system using computer vision and machine learning for real-time density
+                     estimation and anomaly detection. It features live video feed analysis with Python and OpenCV and visualizes
+                     metrics for effective decision-making.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>MySQL</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 MITTAPALLI THARUN KUMAR. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
