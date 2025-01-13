@@ -1,5 +1,4 @@
 # My-Portfolio
 Responsive Portfolio Website
 
-Build My personal portfolio website that is responsive and showcases My skills,
-projects, and contact information.
+I created a dynamic personal portfolio website that beautifully showcases my skills, projects, and contact info, all designed with HTML, CSS, and JavaScript. I'm really proud of it!
